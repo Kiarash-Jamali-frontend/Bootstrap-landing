@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+<rect width="20" height="20" rx="50%" ry="50%" fill="#ff0000" />  
+<text fill="#fff" stroke="#fff" stroke-width="0.8px" font-size="1em" x="6.7" y="13.6" font-family="calibri">
+      x
+</text>    
+</svg>

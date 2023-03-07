@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/*لوگو*/
+.logo {
+  color: #000000 !important;
+}
+
+.instagram-tm:hover {
+  transform: translateX(-15px);
+}
+
+.instagram-tm {
+  transition: 0.2s;
+}
+
+/*# sourceMappingURL=style.css.map */

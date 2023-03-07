@@ -1,0 +1,197 @@
+* {
+      font-family: vazir;
+    }
+
+
+
+
+
+
+
+    ::-webkit-scrollbar {
+      width: 8px;
+      background-color: rgb(145, 145, 145);
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background-color: rgb(196, 196, 196);
+      border-radius: 4px;
+    }
+
+
+
+
+
+    .b-h{
+      border-width: 2px;
+      border-radius: 0px !important;
+    }
+
+    .b-h>span{
+      transition: 0.15s;
+      border-color: transparent;
+    }
+
+    .b-h:hover{
+      border-color: #0d6efd;
+      color: #0d6efd;
+    }
+
+
+    
+    .da:hover {
+      border: none !important;
+      color: rgb(255, 255, 255) !important;
+      background-color: rgb(0, 132, 255);
+    }
+
+    .da>span {
+      transition: 0.2s;
+    }
+
+    .da:hover>span {
+      color: #fff !important;
+      margin-right: 25px;
+    }
+
+    .da {
+      border: none !important;
+    }
+
+
+    .menu>nav {
+      background-color: rgb(255, 255, 255);
+      z-index: 100;
+      position: fixed;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .icon {
+      color: #0d6efd;
+      background-color: #ebeafb;
+      padding: 15px;
+      border-radius: 15px;
+      display: inline-flex;
+    }
+
+
+
+
+    ::selection {
+      color: #ffffff;
+      background-color: rgb(0, 138, 108);
+    }
+
+
+
+
+    @font-face {
+      font-family: "vazir";
+      src: url("./font/Vazir.ttf") format("truetype");
+    }
+
+
+
+
+    body {
+      font-family: vazir;
+    }
+
+    article {
+      background-color: #fff;
+    }
+
+    .display-6 {
+      font-family: sans-serif;
+    }
+
+
+
+
+    .footer-link {
+      text-decoration: none;
+      color: #000;
+    }
+
+    .footer-header {
+      border-bottom: 3px solid;
+      height: 35px;
+    }
+
+
+
+    .header-b {
+      animation: header-animation 1s 0.8s 1 forwards;
+      opacity: 0;
+    }
+
+
+
+
+    @keyframes header-animation {
+      0% {
+        margin-top: 100px;
+        opacity: 0;
+      }
+
+      100% {
+        margin-top: 0px !important;
+        opacity: 1;
+      }
+    }
+
+
+
+    .header-c {
+      animation: header-c 1s 0.8s 1 forwards;
+      opacity: 0;
+    }
+
+
+
+
+
+    @keyframes header-c {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+
+
+
+    .card-primary {
+      background: #1b2a4e;
+      color: white !important;
+    }
+
+
+    
+    @media screen and (max-width: 992px) {
+      .menu {
+        position: relative;
+      }
+    }
+
+
+
+
+
+
+
+    @import url('./style.css');
